@@ -54,7 +54,7 @@ public class PessoaService {
         while (true) {
             System.out.println("digite seu Cpf: ");
             cpf = scanner.nextLine();
-            if (cpf.matches("^\\d{3}-\\d{3}-\\d{3}-\\d{2}$")) {
+            if (cpf.matches("^\\d{3}-\\d{3}-\\d{3}\\d{2}$")) {
                 System.out.println("Cpf Valido!");
                 break;
 
